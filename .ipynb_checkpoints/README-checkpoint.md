@@ -22,35 +22,20 @@ The input layer is visiable data in its raw form. Consists of values transformed
 The activation function is a mathematical function applied to the end of each neuron (that is, each individual perceptron model). This function transforms each neuron’s output into a quantitative value. The quantitative output value is then used as the input value for the next layer in the neural network model. Although activation functions can introduce both linear and nonlinear properties to a neural network, nonlinear activation functions are more common.  ML Glossary’s “Activation Function” sections (Link https://ml-cheatsheet.readthedocs.io/en/latest/activation_functions.html)
 
 ### Output Layer
-
-
----
-
-## Types of Neural Networks(update)
-### Perceptron model
-A single neural network unit. It mimics a biological neuron by receiving input data, weighting the information, and producing a clear output.
-https://riptutorial.com/machine-learning/example/22617/what-exactly-is-a-perceptron-
-
-
-![image_of_PM](https://i.stack.imgur.com/1tsTd.png)
+The output layer takes in the inputs which are passed in from the layers before it, performs the calculations via its neurons and then the output is computed.  The output layer is responsible for producing the final result. 
 
 ---
 
 ## Tools and/or Imports Used 
-Jupyter, Pandas, Numpy, Pathlib, Sklearn, Hvplot, Imblearn, jolib, matplotlib, tensorflow, keras
-
----
-
-## Outcome: 
-Jupyter notebook "credit_risk_resampling" contains data preparations, analysis, and visualizations. Definition of key theories, and measurements used are noted in the appendix below.
+Jupyter, Pandas, Numpy, Pathlib, Sklearn, Imblearn, tensorflow, keras
 
 ---
 
 ## Appendix:  
 List of terms definitions and code used to complete the analysis
 
-| Term | Description | Use Cases |
-| :---: | :------- | :--- |
+| Term | Description | links |
+| :---: | :----------- | :--- |
 |TensorFlow|TensorFlow is an end-to-end open-source platform for machine learning. It allows us to run our code across multiple platforms in a highly efficient way. |  |  
 |Keras| Keras is an abstraction layer on top of TensorFlow that makes it easier to build models.|---|
 |Neuron| a single network that contains input vlaues, weights, bias, summary, output | |
